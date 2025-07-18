@@ -25,8 +25,6 @@ struct CardView: View {
         VStack {
             userImageView
             userInfoView
-            
-            // Debug: show current status string for troubleshooting
             Text("\(user.status ?? "nil")")
                 .foregroundColor(.red)
                 .font(.caption)
